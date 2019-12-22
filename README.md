@@ -1,25 +1,31 @@
 # Markdown New Tab
 
-[![Build Status](https://img.shields.io/travis/plibither8/markdown-new-tab/master.svg?style=flat-square)](https://travis-ci.org/plibither8/markdown-new-tab)
-[![Chrome Webstore Version](https://img.shields.io/chrome-web-store/v/demppioeofcekpjcnlkmdjbabifjnokj.svg)](https://chrome.google.com/webstore/detail/markdown-new-tab/demppioeofcekpjcnlkmdjbabifjnokj)
-[![Chrome Webstore Users](https://img.shields.io/chrome-web-store/users/demppioeofcekpjcnlkmdjbabifjnokj.svg)](https://chrome.google.com/webstore/detail/markdown-new-tab/demppioeofcekpjcnlkmdjbabifjnokj)
-[![Licence](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[link-cws]: https://chrome.google.com/webstore/detail/demppioeofcekpjcnlkmdjbabifjnokj "Version published on Chrome Web Store"
+[link-amo]: https://addons.mozilla.org/en-US/firefox/addon/markdown-new-tab/ "Version published on Mozilla Add-ons"
 
-[![Made_with_love_in India](https://madewithlove.org.in/badge.svg)](https://madewithlove.org.in/)
+[![Licence](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](LICENSE) 
+[![Build Status](https://img.shields.io/travis/plibither8/markdown-new-tab/master.svg?style=flat-square)](https://travis-ci.org/plibither8/markdown-new-tab)
+[![Chrome Web Store](https://img.shields.io/chrome-web-store/users/demppioeofcekpjcnlkmdjbabifjnokj.svg?label=chrome%20users&style=flat-square)][link-cws]
+[![Mozilla Add-on](https://img.shields.io/amo/users/markdown-new-tab.svg?label=firefox%20users&style=flat-square)][link-amo]
+![Made with love in India](https://madewithlove.now.sh/in?heart=true&colorB=%23ff701f&template=flat-square)
 
 > Take down notes 🗒️, save reminders ⏰, paste links 🔗, create checklists ☑️ or tables, all using markdown... directly in your 'New Tab' page! Markdown New Tab is a replacement for the default 'New Tab' page on Google Chrome 🆕 🎉.
 
-<a href='https://chrome.google.com/webstore/detail/shufflepaper/demppioeofcekpjcnlkmdjbabifjnokj?utm_campaign=PartBadge'><img alt='Get it on the Chrome Webstore' src='https://developer.chrome.com/webstore/images/ChromeWebStore_BadgeWBorder_v2_206x58.png' height="58px"/></a>
-
 ![Demo GIF](/assets/demo.gif)
+
+## Install
+
+- [**Chrome** extension][link-cws] [<img valign="middle" src="https://img.shields.io/chrome-web-store/v/demppioeofcekpjcnlkmdjbabifjnokj.svg?label=%20">][link-cws]
+- [**Firefox** add-on][link-amo] [<img valign="middle" src="https://img.shields.io/amo/v/markdown-new-tab.svg?label=%20">][link-amo]
+- **Opera** extension: Use [this Opera extension](https://addons.opera.com/en/extensions/details/download-chrome-extension-9/) to install the Chrome version.
 
 ## About
 
-Markdown New Tab is a replacement for the default Google Chrome new tab page. Refer to [this brilliant cheat sheat](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to get familiar with the markdown syntax.
+Markdown New Tab is a replacement for the default Google Chrome new tab page. Refer to [this brilliant guide](https://github.github.com/gfm/) to get familiar with the markdown syntax.
 
 ### Features
 
-* Take down *styled* notes 🗒️, create checklists ☑️, links 🔗, tables and reminders ⏰, add images 🖼️ (and all other frills associated with ｍａｒｋｄｏｗｎ [M↓])
+* Take down _**`styled`**_ notes 🗒️, create checklists ☑️, links 🔗, tables and reminders ⏰, add images 🖼️ (and all other frills associated with ｍａｒｋｄｏｗｎ [M↓])
 
 * ⏰ 💾 Automatically saves (and deletes) revision history for you to look back and reminisce
 
@@ -27,15 +33,13 @@ Markdown New Tab is a replacement for the default Google Chrome new tab page. Re
 
 * 💪 💪 ACTIVATE POWERMODE! (enable in settings)
 
-### Upcoming
-
 * Sync notes, revision history and settings between all Chrome browsers you are logged into
+
+### Upcoming
 
 * Change background and foreground colours
 
 * Split editing to show live preview
-
-* Support for Mozilla Firefox (???)
 
 ## Usage
 
@@ -69,6 +73,16 @@ In Firefox the extension can be installed temporarily until you restart the brow
 3. open the extension's directory in your local repo and select [`dist/manifest.json`](dist/manifest.json)
 
 More info [here](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Temporary_Installation_in_Firefox).
+
+## Donate
+
+Markdown New Tab was made by me during my study-breaks and free time. If you like and have enjoyed it, please consider donating a small amount (any amount will be really appreciated!) to support and sustain its development. Thank you!
+
+[![Patreon](https://img.shields.io/badge/Become%20a-patreon-orange.svg?style=for-the-badge&logo=patreon)](https://www.patreon.com/plibither8)
+
+[![Donate](https://img.shields.io/badge/donate-PayPal-blue.svg?style=for-the-badge&logo=paypal)](https://paypal.me/plibither8)
+
+[![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/purple_img.png)](https://www.buymeacoffee.com/plibither8)
 
 ## License
 

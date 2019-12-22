@@ -261,6 +261,63 @@ section.settings
                 margin-top 10px
                 margin-right 20px
 
+        &.dateFormat,
+        &.customCss
+            cursor default 
+
+            a
+                color white
+                font-weight bold
+                text-decoration none
+
+                &:hover
+                    text-decoration underline
+            
+            form
+                margin 5px -10px
+                width 100%
+
+            input
+                margin 10px
+                background none
+                border 1px solid white
+                padding 5px 10px
+                font-size 16px
+                font-family 'Fira Mono'
+                color white
+                outline none
+
+                &[type='text']
+                    width 300px
+                &[type='submit']
+                    cursor pointer
+                    &.saved
+                        border-color green
+
+                &:hover,
+                &:active,
+                &:focus
+                    outline none
+
+            textarea
+                display block
+                width 100%
+                font-family SFMono-Regular, Consolas, 'Liberation Mono', Menlo, Courier, monospace
+                line-height 1.5
+                resize vertical
+                -moz-tab-size 4 !important
+                tab-size 4 !important
+                box-sizing border-box
+                margin-top 5px
+                margin-left 10px
+                background black
+                border 1px solid white
+                box-shadow none
+                color white
+                padding 5px
+                font-size 16px
+                margin-bottom 5px
+
         .switch
             height 30px
             width 30px

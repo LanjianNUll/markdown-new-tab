@@ -9,10 +9,10 @@
         .buttons.flex.noselect
 
             .button#edit
-                img(src="/assets/svg/edit.svg").nodrag
+                img(src="/static/svg/edit.svg").nodrag
 
             .button#save
-                img(src="/assets/svg/save.svg").nodrag
+                img(src="/static/svg/save.svg").nodrag
 
     section.history.flex.nodisplay
 
@@ -21,7 +21,7 @@
             h1 Revision History
 
             .noselect.close#closeHistory
-                img(src="/assets/svg/close.svg").nodrag
+                img(src="/static/svg/close.svg").nodrag
 
         .list
 
@@ -32,7 +32,7 @@
             h1 Settings
 
             .noselect.close#closeSettings
-                img(src="/assets/svg/close.svg").nodrag
+                img(src="/static/svg/close.svg").nodrag
 
         .body.noselect
 
@@ -75,29 +75,49 @@
                 .switch.flex
                     .box
 
-            .item.flex(data-setting='PowerModeColor')
+            .item.dateFormat.flex(data-setting='dateFormat')
 
                 .main.flex
-                    label Colored POWER MODE
-                    p Add colors to particles from POWER MODE (if enabled)
+                    label Date Format
+                    p Customise date/time format to be displayed on the bottom of the window. Refer to 
+                        a(href='https://github.com/felixge/node-dateformat#mask-options') this table
+                        | &nbsp;to see how to properly format (refresh page to see the changes)
+                    form
+                        input(type='text' name='dateFormat' placeholder='dd/mm/yyyy - HH:MM:ss')
+                        input(type='submit' name='submit' value='Save')
 
-                .switch.flex
-                    .box
-
-
-            .item.flex(data-setting='PowerModeShake')
+            .item.customCss.flex(data-setting='customCss')
 
                 .main.flex
-                    label Shake on POWER MODE
-                    p If POWER MODE is enabled, entire screen will "shake" when typing
+                    label Custom CSS
+                    p Add custom CSS that will override current page styles
+                    form
+                        textarea(name='dateFormat' placeholder='Custom CSS' rows=5)
+                        input(type='submit' name='submit' value='Save')
 
-                .switch.flex
-                    .box
+            //- .item.flex(data-setting='PowerModeColor')
+
+            //-     .main.flex
+            //-         label Colored POWER MODE
+            //-         p Add colors to particles from POWER MODE (if enabled)
+
+            //-     .switch.flex
+            //-         .box
+
+
+            //- .item.flex(data-setting='PowerModeShake')
+
+            //-     .main.flex
+            //-         label Shake on POWER MODE
+            //-         p If POWER MODE is enabled, entire screen will "shake" when typing
+
+            //-     .switch.flex
+            //-         .box
 
 
     section.bar.flex.noselect
 
         .button.flex#settings
-            img(src="/assets/svg/settings.svg").nodrag
+            img(src="/static/svg/settings.svg").nodrag
         p#time
         p#lastEdited
